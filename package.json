@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "name": "task-1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+  "start": "concurrently \"npm run dev --prefix react-app\" \"node server.js\""
+    },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": true
+}
