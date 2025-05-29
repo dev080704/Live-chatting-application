@@ -1,2 +1,3 @@
 # Live-chatting-application
-Using React
+Using Javascript and React
+
